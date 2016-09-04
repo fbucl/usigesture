@@ -1,0 +1,7 @@
+<Shell xmlns="http://www.eclipse.org/xwt/presentation" xmlns:x="http://www.eclipse.org/xwt" x:Class="ui.test6" text="XWT Application">
+	<Shell.layout>
+		<RowLayout/>
+	</Shell.layout>
+	<Button text="Double click me!"/>
+	<Label text="New Label"/>
+</Shell>

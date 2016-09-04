@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<palette>
+	<category id="someUniqueId" name="Custom category" description="Category added for project WBtest" open="true">
+		<component class="org.eclipse.swt.widgets.Button"/>
+
+	</category>
+</palette>

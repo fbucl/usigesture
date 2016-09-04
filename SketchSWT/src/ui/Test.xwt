@@ -1,0 +1,17 @@
+<Shell xmlns="http://www.eclipse.org/xwt/presentation" xmlns:x="http://www.eclipse.org/xwt" x:Class="ui.Test" text="XWT Application" xmlns:p1="clr-namespace:behavior" xmlns:p2="clr-namespace:swt.sketchComponents" layout="{x:Null}" xmlns:p3="clr-namespace:sketch" xmlns:p4="clr-namespace:sketch.algorithm" xmlns:p5="clr-namespace:sketch.dataset" background="COLOR_WIDGET_BACKGROUND">
+	<p3:SketchSpace bounds="23, 151, 0, 0">
+		<p3:SketchContext bounds="0, 0, 200, 50" x:Name="sc1">
+			<p5:Digits bounds="0, 0, 200, 50" numberSketchers="1" numberGesturesByClass="3"/>
+			<p4:OneDollar bounds="0, 0, 200, 50"/>
+		</p3:SketchContext>
+	</p3:SketchSpace>
+	<Label text="Recognition result" bounds="290, 64, 112, 36" x:Name="label" background="COLOR_TITLE_BACKGROUND_GRADIENT"/>
+	<Button text="Recognize" x:Name="recognizeButton" bounds="31, 216, 112, 28"/>
+	<Button text="Clean" x:Name="cleanButton" bounds="138, 216, 88, 28"/>
+	<p3:SketchArea bounds="49, 64, 181, 132" x:Name="sa" sketchContext="sc1"/>
+	<p1:Behavior bounds="-2147483648, -2147483648, 0, 0" cuiValidation="false">
+		<p1:Rule bounds="0, 0, 200, 50" actionExpression="$sa.CLEAN_AREA" eventExpression="$cleanButton.ON_SELECTION"/>
+		<p1:Rule eventExpression="$recognizeButton.ON_SELECTION" actionExpression="$label.SET_TEXT($sa.RECOGNITION_RESULT)" conditionExpression="[c==c || d==d &amp;&amp; c==d]" size="0, 0"/>
+		<p1:Rule bounds="0, 0, 200, 50"/>
+	</p1:Behavior>
+</Shell>

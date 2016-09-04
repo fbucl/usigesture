@@ -1,0 +1,6 @@
+coordonnées: x:0->60960 y:0->45720
+pression: 0->1023
+orientation: 0°->360° (0°=12h, 90° = 3h, 180°=6h, 270°=9h)
+angle: 30°->90° (90°=stylet vertical)
+bouton: 1=pointe 2=gomme
+"not valid"=stylet levé

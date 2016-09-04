@@ -1,0 +1,20 @@
+time_millis:1216984495728 time_nano:77494820627761 tablet (42727,25130) but=1 or=1500 ang=540 pression=258
+time_millis:1216984495728 time_nano:77494824653412 tablet (42389,25108) but=1 or=1500 ang=540 pression=266
+time_millis:1216984495738 time_nano:77494828757286 tablet (42200,25101) but=1 or=1500 ang=540 pression=277
+time_millis:1216984495738 time_nano:77494832720918 tablet (41995,25101) but=1 or=1490 ang=550 pression=280
+time_millis:1216984495748 time_nano:77494840790379 tablet (41779,25090) but=1 or=1490 ang=550 pression=281
+time_millis:1216984495748 time_nano:77494844823573 tablet (41559,25075) but=1 or=1490 ang=550 pression=277
+time_millis:1216984495758 time_nano:77494848970190 tablet (41337,25061) but=1 or=1490 ang=550 pression=280
+time_millis:1216984495758 time_nano:77494852888844 tablet (41121,25047) but=1 or=1490 ang=550 pression=284
+time_millis:1216984495768 time_nano:77494860958306 tablet (40909,25035) but=1 or=1490 ang=550 pression=300
+time_millis:1216984495768 time_nano:77494864170166 tablet (40697,25035) but=1 or=1490 ang=550 pression=320
+time_millis:1216984495778 time_nano:77494868173468 tablet (40491,25023) but=1 or=1490 ang=550 pression=337
+time_millis:1216984495778 time_nano:77494876176441 tablet (40287,25023) but=1 or=1480 ang=560 pression=354
+time_millis:1216984495788 time_nano:77494887118055 tablet (40091,25023) but=1 or=1480 ang=560 pression=359
+time_millis:1216984495788 time_nano:77494887879046 tablet (39909,25011) but=1 or=1480 ang=560 pression=361
+time_millis:1216984495798 time_nano:77494889758893 tablet (39740,25011) but=1 or=1480 ang=560 pression=363
+time_millis:1216984495798 time_nano:77494898153815 tablet (39584,25004) but=1 or=1480 ang=560 pression=359
+time_millis:1216984495808 time_nano:77494900182844 tablet (39446,24995) but=1 or=1480 ang=560 pression=341
+time_millis:1216984495808 time_nano:77494904202349 tablet (39318,24986) but=1 or=1480 ang=560 pression=271
+time_millis:1216984495818 time_nano:77494908237220 tablet (39201,24974) but=1 or=1480 ang=560 pression=101
+Not valid

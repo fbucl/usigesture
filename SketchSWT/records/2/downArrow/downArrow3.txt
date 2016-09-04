@@ -1,0 +1,26 @@
+time_millis:1216815552096 time_nano:102273578835298 tablet (27400,28195) but=1 or=1150 ang=410 pression=200
+time_millis:1216815552106 time_nano:102273582859553 tablet (27432,28164) but=1 or=1150 ang=420 pression=127
+time_millis:1216815552106 time_nano:102273586893585 tablet (27432,28150) but=1 or=1150 ang=420 pression=139
+time_millis:1216815552116 time_nano:102273590925941 tablet (27432,28126) but=1 or=1160 ang=430 pression=146
+time_millis:1216815552116 time_nano:102273598993726 tablet (27432,28088) but=1 or=1160 ang=430 pression=159
+time_millis:1216815552126 time_nano:102273602211733 tablet (27432,28032) but=1 or=1160 ang=430 pression=179
+time_millis:1216815552126 time_nano:102273606220064 tablet (27448,27947) but=1 or=1160 ang=440 pression=208
+time_millis:1216815552136 time_nano:102273610220852 tablet (27473,27832) but=1 or=1160 ang=440 pression=237
+time_millis:1216815552136 time_nano:102273618219354 tablet (27502,27680) but=1 or=1160 ang=450 pression=266
+time_millis:1216815552146 time_nano:102273622217628 tablet (27539,27481) but=1 or=1150 ang=450 pression=291
+time_millis:1216815552146 time_nano:102273626221209 tablet (27578,27235) but=1 or=1150 ang=450 pression=318
+time_millis:1216815552156 time_nano:102273630256918 tablet (27618,26946) but=1 or=1150 ang=450 pression=347
+time_millis:1216815552156 time_nano:102273638322189 tablet (27661,26604) but=1 or=1140 ang=450 pression=366
+time_millis:1216815552166 time_nano:102273642356221 tablet (27705,26236) but=1 or=1140 ang=450 pression=374
+time_millis:1216815552166 time_nano:102273646389136 tablet (27749,25844) but=1 or=1140 ang=450 pression=380
+time_millis:1216815552176 time_nano:102273650422888 tablet (27794,25423) but=1 or=1130 ang=460 pression=383
+time_millis:1216815552176 time_nano:102273658488159 tablet (27838,24994) but=1 or=1130 ang=460 pression=388
+time_millis:1216815552186 time_nano:102273662521074 tablet (27877,24549) but=1 or=1120 ang=460 pression=387
+time_millis:1216815552186 time_nano:102273666553989 tablet (27920,24112) but=1 or=1130 ang=470 pression=388
+time_millis:1216815552196 time_nano:102273674645799 tablet (27960,23696) but=1 or=1120 ang=470 pression=388
+time_millis:1216815552196 time_nano:102273685654182 tablet (28002,23296) but=1 or=1110 ang=480 pression=387
+time_millis:1216815552196 time_nano:102273686702080 tablet (28049,22908) but=1 or=1100 ang=480 pression=380
+time_millis:1216815552206 time_nano:102273687481230 tablet (28097,22524) but=1 or=1080 ang=490 pression=342
+time_millis:1216815552206 time_nano:102273696689104 tablet (28151,22163) but=1 or=1070 ang=490 pression=254
+time_millis:1216815552216 time_nano:102273698707517 tablet (28214,21828) but=1 or=1050 ang=490 pression=50
+Not valid

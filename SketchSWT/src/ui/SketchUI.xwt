@@ -1,0 +1,8 @@
+<Shell xmlns="http://www.eclipse.org/xwt/presentation" xmlns:x="http://www.eclipse.org/xwt" x:Class="core.SketchUI" text="XWT Application" layout="{x:Null}" xmlns:p1="clr-namespace:swt.sketchComponents" xmlns:p2="clr-namespace:listener" xmlns:p3="clr-namespace:org.eclipse.jface.text" x:Name="shell" xmlns:p4="clr-namespace:behavior">
+	<p4:Behavior bounds="0, 0, 0, 0">
+		<p4:Rule bounds="0, 0, 200, 50"/>
+	</p4:Behavior>
+	<Button text="New Button" bounds="253, 165, 94, 28" x:Name="button"/>
+	<Label text="New Label" bounds="10, 73, 59, 14" x:Name="label"/>
+	<Text x:Style="BORDER" bounds="30, 175, 64, 19"/>
+</Shell>

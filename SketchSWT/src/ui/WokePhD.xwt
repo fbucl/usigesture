@@ -1,0 +1,16 @@
+<Shell xmlns="http://www.eclipse.org/xwt/presentation" xmlns:x="http://www.eclipse.org/xwt" x:Class="ui.WokePhD" text="XWT Application" layout="{x:Null}" xmlns:p1="clr-namespace:behavior" xmlns:p2="clr-namespace:sketch" xmlns:p3="clr-namespace:sketch.algorithm" xmlns:p4="clr-namespace:sketch.dataset">
+	<p2:SketchSpace location="0, 0">
+		<p2:SketchContext bounds="0, 0, 200, 50" x:Name="sc2">
+			<p3:OneDollar bounds="0, 0, 200, 50"/>
+			<p4:Digits bounds="0, 0, 200, 50"/>
+		</p2:SketchContext>
+	</p2:SketchSpace>
+	<Button text="+" bounds="544, 251, 71, 28" x:Name="plusButton"/>
+	<Label text="0" bounds="593, 405, 59, 14" foreground="COLOR_WIDGET_HIGHLIGHT_SHADOW" x:Name="duckLabel"/>
+	<p2:SketchArea bounds="611, 231, 164, 188" x:Style="NO_BACKGROUND" sketchContext="sc2" x:Name="sa"/>
+	<Label bounds="0, 0, 944, 558" image="woke.be.png"/>
+	<p1:Behavior location="0, 0">
+		<p1:Rule bounds="0, 0, 200, 50" eventExpression="$plusButton.ON_SELECTION" actionExpression="$duckLabel.INCREMENT"/>
+		<p1:Rule bounds="0, 0, 200, 50" eventExpression="$sa.ON_STROKE_FINISHED" actionExpression="$duckLabel.SET_TEXT($sa.RECOGNITION_RESULT)"/>
+	</p1:Behavior>
+</Shell>

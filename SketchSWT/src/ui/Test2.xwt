@@ -1,0 +1,16 @@
+<Shell xmlns="http://www.eclipse.org/xwt/presentation" xmlns:x="http://www.eclipse.org/xwt" x:Class="ui.Test2" text="XWT Application" layout="{x:Null}" xmlns:p1="clr-namespace:sketch" xmlns:p2="clr-namespace:sketch.algorithm" xmlns:p3="clr-namespace:sketch.dataset" xmlns:p4="clr-namespace:behavior">
+	<p1:SketchSpace location="0, 0">
+		<p1:SketchContext bounds="0, 0, 200, 50" x:Name="sc1">
+			<p3:Digits bounds="0, 0, 200, 50"/>
+			<p2:OneDollar bounds="0, 0, 200, 50"/>
+		</p1:SketchContext>
+	</p1:SketchSpace>
+	<p1:SketchArea bounds="36, 40, 254, 171" sketchContext="sc1" x:Name="sa"/>
+	<Button text="recognize" bounds="25, 246, 94, 28" x:Name="recoButton"/>
+	<Button text="clean" bounds="166, 246, 94, 28" x:Name="cleanButton"/>
+	<Label bounds="388, 77, 102, 81" background="COLOR_TITLE_BACKGROUND_GRADIENT" x:Name="label"/>
+	<p4:Behavior location="0, 0">
+		<p4:Rule bounds="0, 0, 200, 50" eventExpression="$cleanButton.ON_SELECTION" actionExpression="$sa.CLEAN_AREA" />
+		<p4:Rule bounds="0, 0, 200, 50" eventExpression="$recoButton.ON_SELECTION" actionExpression="$label.SET_TEXT($sa.RECOGNITION_RESULT)"/>
+	</p4:Behavior>
+</Shell>
